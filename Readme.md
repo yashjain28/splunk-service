@@ -36,7 +36,7 @@ After setting up the system, the user can use the publish data to Splunk using t
 
 ### Code Services
 
-SetupTwoFactorAuth - a setup service that creates users and ensures all constants are set.  This service should only be run once.
+SetupSplunk - a setup service that creates users and ensures all constants are set.  This service should only be run once.
 
 PublishToSplunkCloud - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
 
