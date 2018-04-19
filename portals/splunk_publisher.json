@@ -1,0 +1,539 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "cc866681-c533-46c6-bd5c-54200bb0d0b1": "lg"
+        },
+        "datasources": {
+            "f73ad057-e0d8-4540-87e2-c30471a40c6d": {
+                "id": "f73ad057-e0d8-4540-87e2-c30471a40c6d",
+                "name": "deviceData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": true,
+                    "TOPIC_NAME": "deviceData"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "cc866681-c533-46c6-bd5c-54200bb0d0b1": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "c981ccd5-7b47-4952-94fb-f0c5e3624ced",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 4,
+                        "i": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 3,
+                        "i": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 3,
+                        "i": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 3,
+                        "i": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "74ab54e3-dabc-4067-9bfa-6296b02605ec": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Splunk-It"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "74ab54e3-dabc-4067-9bfa-6296b02605ec",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "cc866681-c533-46c6-bd5c-54200bb0d0b1",
+                    "tabIds": [
+                        "cc866681-c533-46c6-bd5c-54200bb0d0b1"
+                    ],
+                    "tabTitles": {
+                        "cc866681-c533-46c6-bd5c-54200bb0d0b1": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "c981ccd5-7b47-4952-94fb-f0c5e3624ced": {
+                "externalScripts": [],
+                "id": "c981ccd5-7b47-4952-94fb-f0c5e3624ced",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "textarea { \n    overflow: auto; \n    height: 200px; \n    width: 250px;\n    position: center;\n    background-color: #ffe6e6;\n} \n",
+                            "HTML": "\u003cdiv class=\"text-center\"\u003e\n\t\u003ch2\u003eSplunk it !!\u003c/h2\u003e\n\t\u003cp\u003eThese are dummy devices. You click to send data from a device# to a topic, which triggers a service to publish to Splunk\u003c/p\u003e\n\t\u003cdiv class=\"btn-group\"\u003e\n\t\t\u003cbutton class=\"btn btn-primary\" id=\"device1\" onclick=\"sendMessage(id)\"\u003eDevice1\u003c/button\u003e\n\t\t\u003cbutton class=\"btn btn-primary\" id=\"device2\" onclick=\"sendMessage(id)\"\u003eDevice2\u003c/button\u003e\n\t\t\u003cbutton class=\"btn btn-primary\" id=\"device3\" onclick=\"sendMessage(id)\"\u003eDevice3\u003c/button\u003e\n\t\u003c/div\u003e\n\t\u003cbr\u003e\n\t\u003cbr\u003e\n\t\u003ctextarea type=\"text\" id=\"deviceDataSent\" name=\"Data Sent\"\u003e\u003c/textarea\u003e\n\t\u003cbr\u003e\n\t\u003cbr\u003e\n\n\t\u003cdiv class=\"input-group mb-3\"\u003e\n\t\t\u003cdiv class=\"input-group-prepend\"\u003e\n\t\t\t\u003cspan class=\"input-group-text\"\u003eMake\u003c/span\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cinput type=\"text\" class=\"form-control\" id=\"numberOfRequests\" placeholder=\"Number Of Requests\"\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cspan class=\"input-group-text\"\u003eIn\u003c/span\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cinput type=\"text\" class=\"form-control\" id=\"timeInSeconds\" placeholder=\"Time In Seconds\"\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cspan class=\"input-group-text\"\u003eRepeat\u003c/span\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cinput type=\"text\" class=\"form-control\" id=\"numberOfTimes\" placeholder=\"X times\"\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"input-group-append\"\u003e\n\t\t\t\u003cbutton class=\"form-control btn btn-primary\" onclick=\"publishRandomly()\" type=\"button\"\u003ePublish\u003c/button\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e\n\n\n\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nwindow.sendMessage = function(id){\n    var rand = Math.random();\n    var temp = 70 + (10*rand);\n    var acc = 10*rand + rand;\n    var uv = 100 + (300*rand);\n    var payload = {\n        device:id,\n        temperature:temp,\n        acceleration:acc,\n        uvlight:uv\n    };\n    document.getElementById(\"deviceDataSent\").innerHTML = JSON.stringify(payload);\n    datasources.temperatureReading.sendData(JSON.stringify(payload));\n}\n\nwindow.publishRandomly = function(){\n    var numberOfRequests = document.getElementById(\"numberOfRequests\").value;\n    var timeInSeconds = document.getElementById(\"timeInSeconds\").value;\n    var numberOfTimes = document.getElementById(\"numberOfTimes\").value;\n    console.log(\"in publish randomly\"+numberOfRequests+\" \"+ timeInSeconds+\" \"+numberOfTimes);\n    for(var i=0;i\u003cnumberOfTimes;i++){\n        for(var j=0;j\u003cnumberOfRequests;j++){\n            var deviceNo = 1 + parseInt((Math.random()*10))%3;\n            sendMessage(deviceNo);\n        }    \n        //sleep(timeInSeconds);\n    }\n\n\n\n\n}"
+                        }
+                    }
+                },
+                "tab": "cc866681-c533-46c6-bd5c-54200bb0d0b1",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "This portal displays how data can be published on Splunk Cloud using information sent by devices.",
+    "last_updated": "19 Apr 18 23:00 UTC",
+    "name": "splunk_publisher",
+    "system_key": "e2c3bcad0bfe92858bb9c88992e101",
+    "type": "custom_v2"
+}
