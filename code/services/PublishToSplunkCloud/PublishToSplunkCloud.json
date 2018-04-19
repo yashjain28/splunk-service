@@ -1,0 +1,12 @@
+{
+    "current_version": 46,
+    "dependencies": "log,http,ConstantsSplunk",
+    "logging_enabled": "true",
+    "name": "PublishToSplunkCloud",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "PublishToSplunkCloud.js"
+}
