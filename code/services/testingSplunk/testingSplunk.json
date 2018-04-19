@@ -1,0 +1,10 @@
+{
+    "current_version": 8,
+    "dependencies": "log,clearblade,http",
+    "logging_enabled": "true",
+    "name": "testingSplunk",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "testingSplunk.js"
+}
