@@ -1,0 +1,26 @@
+{
+    "author": {
+        "email": "yaassh28@gmail.com"
+    },
+    "clouds": [],
+    "description": "",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "splunk",
+        "external-analytics",
+        "analytics",
+        "external"
+    ],
+    "license": "MIT",
+    "name": "splunk-service",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
