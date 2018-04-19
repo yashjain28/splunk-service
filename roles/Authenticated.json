@@ -17,7 +17,7 @@
             },
             {
                 "Level": 1,
-                "Name": "publishToSplunkCloud",
+                "Name": "PublishToSplunkCloud",
                 "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
             }
         ],

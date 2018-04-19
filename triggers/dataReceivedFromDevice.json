@@ -11,5 +11,5 @@
         "topic": "deviceData"
     },
     "name": "dataReceivedFromDevice",
-    "service_name": "publishToSplunkCloud"
+    "service_name": "PublishToSplunkCloud"
 }
