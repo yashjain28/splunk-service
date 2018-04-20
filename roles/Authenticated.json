@@ -12,11 +12,6 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "publishReadingToMessageTopic",
-                "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
-            },
-            {
-                "Level": 1,
                 "Name": "PublishToSplunkCloud",
                 "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
             }
@@ -38,11 +33,6 @@
             {
                 "Level": 7,
                 "Name": "splunk_publisher",
-                "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
-            },
-            {
-                "Level": 1,
-                "Name": "Two Factor Login",
                 "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
             }
         ],

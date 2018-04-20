@@ -38,19 +38,19 @@ function SetupSplunk(req, resp){
         }; 
         if( checkConstantEmpty(PLATFORM_URL) ){
             response.err = true;
-            response.messages.push("PLATFORM_URL not set in ConstantsTwoFactor Library");
+            response.messages.push("PLATFORM_URL not set in ConstantsSplunk Library");
         }
         if( checkConstantEmpty(SPLUNK_KEY) ){
             response.err = true;
-            response.messages.push("SPLUNK_KEY not set in ConstantsTwoFactor Library");
+            response.messages.push("SPLUNK_KEY not set in ConstantsSplunk Library");
         }
         if( checkConstantEmpty(SPLUNK_HOSTNAME) ){
             response.err = true;
-            response.messages.push("SPLUNK_HOSTNAME not set in ConstantsTwoFactor Library");
+            response.messages.push("SPLUNK_HOSTNAME not set in ConstantsSplunk Library");
         }
         if( checkConstantEmpty(PORTNO) ){
             response.err = true;
-            response.messages.push("SPLUNK_PORTNO not set in ConstantsTwoFactor Library");
+            response.messages.push("SPLUNK_PORTNO not set in ConstantsSplunk Library");
         }
     };
 

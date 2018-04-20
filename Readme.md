@@ -17,7 +17,7 @@ To setup this example the following 4 steps are required.
 
 	Following steps are assuming user already has a account on Splunk cloud and has an app (default app can also be used), where the user wants http event data. There are various ways to get the data in Splunk-Cloud, this package focus on using [Http Event Collector](http://docs.splunk.com/Documentation/Splunk/latest/Data/AboutHEC) of Splunk.
 
-	1. A HEC token needs to be created to allow the user to make http requests on Splunk. The process can be a little different depending on what type Splunk instance the user is running. For more information, click [here](http://docs.splunk.com/Documentation/Splunk/latest/Data/AboutHEC).
+	1. A HEC token needs to be created to allow the user to make http requests on Splunk. The process can be a little different depending on what type Splunk instance the user is running. If using Splunk Self-Service Cloud instance, click [here](http://docs.splunk.com/Documentation/Splunk/7.0.3/Data/UsetheHTTPEventCollector#Configure_HTTP_Event_Collector_on_self-service_Splunk_Cloud) to follow the steps to generate a HEC token. For more information, click [here](http://docs.splunk.com/Documentation/Splunk/latest/Data/AboutHEC).
 	
 	2. It is a good idea to create an index where user can store incoming events information, later on used for analytics purposes.
 
@@ -37,7 +37,9 @@ To setup this example the following 4 steps are required.
 
 ## Usage
 
-After setting up the system, the user can use the publish data to Splunk using the PublishToSplunk service. Once the data is available at Splunk, further analytics can be done.  
+After setting up the system, the user can use the publish data to Splunk using the PublishToSplunk service. Once the data is available at Splunk, further analytics can be done.
+
+To easily try our the Splunk integration, open the Splunk_publisher portal where you can simulate device data being published  
 
 ### Code Services
 
@@ -45,14 +47,10 @@ SetupSplunk - a setup service that creates users and ensures all constants are s
 
 PublishToSplunkCloud - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
 
-### Code Libraries
 
 ### Portals
-Splunk_publisher: It's a demo portal, which allows user to mock up devices and send data to Splunk. It can be customized according to users needs. 
+SplunkPublisher: It's a demo portal, which allows user to mock up devices and send data to Splunk. It can be customized according to users needs. 
 
-### Collections
-
-### ...
 
 ## Thank you
 

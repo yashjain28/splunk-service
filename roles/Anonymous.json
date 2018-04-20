@@ -9,13 +9,7 @@
         "AllServices": {
             "Level": 0
         },
-        "CodeServices": [
-            {
-                "Level": 1,
-                "Name": "authOverride",
-                "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
-            }
-        ],
+        "CodeServices": [],
         "Collections": [],
         "Deployments": {
             "Level": 0
@@ -29,13 +23,7 @@
         "MsgHistory": {
             "Level": 0
         },
-        "Portals": [
-            {
-                "Level": 1,
-                "Name": "Two Factor Login",
-                "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
-            }
-        ],
+        "Portals": [],
         "Push": {
             "Level": 0
         },

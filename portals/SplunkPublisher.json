@@ -533,7 +533,7 @@
     },
     "description": "This portal displays how data can be published on Splunk Cloud using information sent by devices.",
     "last_updated": "19 Apr 18 23:00 UTC",
-    "name": "splunk_publisher",
+    "name": "SplunkPublisher",
     "system_key": "e2c3bcad0bfe92858bb9c88992e101",
     "type": "custom_v2"
 }
