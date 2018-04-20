@@ -26,7 +26,7 @@
         "Portals": [
             {
                 "Level": 1,
-                "Name": "splunk_publisher",
+                "Name": "SplunkPublisher",
                 "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
             }
         ],

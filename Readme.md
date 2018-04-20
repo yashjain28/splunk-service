@@ -39,7 +39,7 @@ To setup this example the following 4 steps are required.
 
 After setting up the system, the user can use the publish data to Splunk using the PublishToSplunk service. Once the data is available at Splunk, further analytics can be done.
 
-To easily try our the Splunk integration, open the Splunk_publisher portal where you can simulate device data being published  
+To easily try our the Splunk integration, open the SplunkPublisher portal where you can simulate device data being published  
 
 ### Code Services
 
