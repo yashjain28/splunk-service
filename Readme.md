@@ -15,24 +15,29 @@ To setup this example the following 4 steps are required.
 
 1. Setup on Splunk:
 
-	1. Create a HEC token on Splunk to allow you to make http requests on Splunk. The process can be a little different depending on what type Splunk instance the user is running. For more information, click [here](http://dev.splunk.com/view/event-collector/SP-CAAAE6M)
-	
-	2. A index needs to be created which lets you store incoming events information, which is later on used for analytics purposes.
+	Following steps are assuming user already has a account on Splunk cloud and has an app (default app can also be used), where the user wants http event data. There are various ways to get the data in Splunk-Cloud, this package focus on using [Http Event Collector](http://docs.splunk.com/Documentation/Splunk/latest/Data/AboutHEC) of Splunk.
 
+	1. A HEC token needs to be created to allow the user to make http requests on Splunk. The process can be a little different depending on what type Splunk instance the user is running. For more information, click [here](http://docs.splunk.com/Documentation/Splunk/latest/Data/AboutHEC).
+	
+	2. It is a good idea to create an index where user can store incoming events information, later on used for analytics purposes.
+
+	3. The user can check the data received on Splunk Search, by querying `index="<index_name>"`.
+
+	4. Create a dashboard on Splunk using the event information from devices(which is stored in the index on Splunk instance). As data sent from ClearBlade service is in JSON format, it can be easily received at Splunk and graphs/charts can be created using the fields. Splunks extracts it for the user. For detailed information, click [here](http://docs.splunk.com/Documentation/Splunk/latest/Viz/Overviewofdashboards)  
 
 2. Setup on ClearBlade: 
 
 	1.  Navigate to the Code / Libraries / ConstantsSplunk and provide your necessary Splunk account information. 
 	
 	2.  As a developer, browse to the service Code / Services / SetupSplunk
-	    1.  Modify the constants at the top
+	    1.  Modify the constants at the top, if required
 	    2.  Save and Test the service (This service only needs to be executed once)
 	
 
 
 ## Usage
 
-After setting up the system, the user can use the publish data to Splunk using the publish to Splunk service. Once the data is available at Splunk, further analytics can be done. 
+After setting up the system, the user can use the publish data to Splunk using the PublishToSplunk service. Once the data is available at Splunk, further analytics can be done.  
 
 ### Code Services
 
