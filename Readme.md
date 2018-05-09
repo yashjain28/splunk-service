@@ -9,6 +9,8 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 [Browse ipm Packages](https://ipm.clearblade.com)
 
+[![Live demonstration](https://img.youtube.com/vi/GCMGd9oun_Q/0.jpg)](https://www.youtube.com/watch?v=GCMGd9oun_Q)
+
 ## Setup
 
 To setup this example the following 4 steps are required.
