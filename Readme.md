@@ -50,9 +50,9 @@ To easily try our the Splunk integration, open the SplunkPublisher portal where 
 
 ### Code Services
 
-`SplunkSetup` - a setup service that creates users and ensures all constants are set.  This service should only be run once.
+* `SplunkSetup` - a setup service that creates users and ensures all constants are set.  This service should only be run once.
 
-`SplunkPublishToCloud` - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
+* `SplunkPublishToCloud` - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
 
 ### Triggers
 `SplunkOnDataReceive` - This trigger activates when data is published on the _deviceData_ message topic. It triggers _SplunkPublishToCloud_ service to publish the data on the message topic.
