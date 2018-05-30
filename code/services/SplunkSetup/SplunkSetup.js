@@ -1,4 +1,9 @@
-function SetupSplunk(req, resp){
+/**
+ * This services setups the basic roles and users to use the system easily out of the box. It also ensures that all the constants are setup properly.
+ * 
+ */
+
+function SplunkSetup(req, resp){
     var portalUserPassword = "clearblade";         // change this to something unique
     
     var response = {
@@ -38,19 +43,19 @@ function SetupSplunk(req, resp){
         }; 
         if( checkConstantEmpty(PLATFORM_URL) ){
             response.err = true;
-            response.messages.push("PLATFORM_URL not set in ConstantsSplunk Library");
+            response.messages.push("PLATFORM_URL not set in SplunkConstants Library");
         }
         if( checkConstantEmpty(SPLUNK_KEY) ){
             response.err = true;
-            response.messages.push("SPLUNK_KEY not set in ConstantsSplunk Library");
+            response.messages.push("SPLUNK_KEY not set in SplunkConstants Library");
         }
         if( checkConstantEmpty(SPLUNK_HOSTNAME) ){
             response.err = true;
-            response.messages.push("SPLUNK_HOSTNAME not set in ConstantsSplunk Library");
+            response.messages.push("SPLUNK_HOSTNAME not set in SplunkConstants Library");
         }
         if( checkConstantEmpty(PORTNO) ){
             response.err = true;
-            response.messages.push("SPLUNK_PORTNO not set in ConstantsSplunk Library");
+            response.messages.push("SPLUNK_PORTNO not set in SplunkConstants Library");
         }
     };
 

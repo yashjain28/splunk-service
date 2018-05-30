@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "",
     "description": "",
-    "name": "ConstantsSplunk",
-    "version": 9,
+    "name": "SplunkConstants",
+    "version": null,
     "visibility": "system"
 }

@@ -16,7 +16,8 @@
         "external-analytics",
         "analytics",
         "external",
-        "splunk-cloud"
+        "splunk-cloud",
+        "cloud"
     ],
     "asset_types": [
         "Code Services",
@@ -29,9 +30,9 @@
     "prog_lang": [
         "javascript"
     ],
-    "protocols": [],
+    "protocols": ["http"],
     "things": [],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
