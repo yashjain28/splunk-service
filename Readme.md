@@ -3,7 +3,7 @@
 
 ## Overview
 
-Splunk is a platform which helps user to have good analytics on their data. Sending the IoT device data to Splunk can help generate interesting analytics. This ipm-package helps user send data to Splunk.
+Splunk is a platform which helps user to have powerful analytics on their data. Sending the IoT device data to Splunk can help generate interesting analytics. This ipm-package helps user send data to Splunk.
 
 This is an ipm package, which contains one or more reusable assets within the ipm Community. The 'package.json' in this repo is a ipm spec's package.json, [here](https://docs.clearblade.com/v/3/6-ipm/spec), which is a superset of npm's package.json spec, [here](https://docs.npmjs.com/files/package.json).
 
@@ -52,7 +52,7 @@ To easily try our the Splunk integration, open the SplunkPublisher portal where 
 
 * `SplunkSetup` - a setup service that creates users and ensures all constants are set.  This service should only be run once.
 
-* `SplunkPublishToCloud` - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
+* `SplunkPublishToCloud` - a service which publishes to Splunk Cloud. Published data is from the mqtt message payload of the subscribed topic. Another service can be created to publish data from some other source.
 
 ### Triggers
 `SplunkOnDataReceive` - This trigger activates when data is published on the _deviceData_ message topic. It triggers _SplunkPublishToCloud_ service to publish the data on the message topic.
