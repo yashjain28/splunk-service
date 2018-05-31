@@ -12,7 +12,7 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "PublishToSplunkCloud",
+                "Name": "SplunkPublishToCloud",
                 "SystemKey": "e2c3bcad0bfe92858bb9c88992e101"
             }
         ],

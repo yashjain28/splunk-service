@@ -1,0 +1,13 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 2,
+    "dependencies": "clearblade,log,http,SplunkConstants",
+    "execution_timeout": 0,
+    "logging_enabled": "false",
+    "name": "SplunkSetup",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "SplunkSetup.js"
+}

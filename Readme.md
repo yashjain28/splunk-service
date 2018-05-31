@@ -3,7 +3,7 @@
 
 ## Overview
 
-Splunk is a platform which helps user to have good analytics on their data. Sending the IoT device data to Splunk can help generate interesting analytics. This ipm-package helps user send data to Splunk.
+Splunk is a platform which helps user to have powerful analytics on their data. Sending the IoT device data to Splunk can help generate interesting analytics. This ipm-package helps user send data to Splunk.
 
 This is an ipm package, which contains one or more reusable assets within the ipm Community. The 'package.json' in this repo is a ipm spec's package.json, [here](https://docs.clearblade.com/v/3/6-ipm/spec), which is a superset of npm's package.json spec, [here](https://docs.npmjs.com/files/package.json).
 
@@ -29,9 +29,9 @@ To setup this example the following 4 steps are required.
 
 2. Setup on ClearBlade: 
 
-	1.  Navigate to the Code / Libraries / ConstantsSplunk and provide your necessary Splunk account information. 
+	1.  Navigate to the Code / Libraries / SplunkConstants and provide your necessary Splunk account information. 
 	
-	2.  As a developer, browse to the service Code / Services / SetupSplunk
+	2.  As a developer, browse to the service Code / Services / SplunkSetup
 	    1.  Modify the constants at the top, if required
 	    2.  Save and Test the service (This service only needs to be executed once)
 	
@@ -43,17 +43,20 @@ After setting up the system, the user can use the publish data to Splunk using t
 
 To easily try our the Splunk integration, open the SplunkPublisher portal where you can simulate device data being published  
 
+## Assets
+### Code Libraries
+
+`SplunkConstants` - This library holds the constants which are specific to the user and needs to be updated before attempting to use this package in your system.
+
 ### Code Services
 
-SetupSplunk - a setup service that creates users and ensures all constants are set.  This service should only be run once.
+* `SplunkSetup` - a setup service that creates users and ensures all constants are set.  This service should only be run once.
 
-PublishToSplunkCloud - a service which published data to Splunk Cloud, the data is the mqtt message payload, which it is subsrcibed to. 
+* `SplunkPublishToCloud` - a service which publishes to Splunk Cloud. Published data is from the mqtt message payload of the subscribed topic. Another service can be created to publish data from some other source.
 
+### Triggers
+`SplunkOnDataReceive` - This trigger activates when data is published on the _deviceData_ message topic. It triggers _SplunkPublishToCloud_ service to publish the data on the message topic.
 
 ### Portals
-SplunkPublisher: It's a demo portal, which allows user to mock up devices and send data to Splunk. It can be customized according to users needs. 
 
-
-## Thank you
-
-Powered by ClearBlade Enterprise IoT Platform: [https://platform.clearblade.com](https://platform.clearblade.com)
+`SplunkPublisher` -  It's a demo portal, which allows user to mock up devices and send data to Splunk. It can be customized according to users needs. 
